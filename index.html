@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html class="js" dir="ltr" lang="es-ES" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec"> 
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fábrica de Ideas - Facilitamos la comunicación, creamos el contenido</title>
+<!--
+<link rel="shortcut icon" href="./favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="./apple-itouch-icon.png">
+-->
+<style type="text/css">
+body
+{
+	background:url("./landing/landing_fab_dia.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	z-index:10; 
+	overflow: hidden; 
+	width: 100%; 
+	height:100%;
+}
+.noche body{
+	background:url("./landing/landing_fab_noche.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	z-index:10; 
+	overflow: hidden; 
+	width: 100%; 
+	height:100%;
+}
+</style>
+
+<!-- cambio de imagen de fondo para la noche  -->
+<script type="text/javascript">
+var isSupported = document.getElementById&&  document.getElementsByTagName;
+if (isSupported) {
+	var dFecha = new Date();
+	iMarca = dFecha.getHours(); /* getHours	getSeconds */
+	//iMarca = 15;
+    if (iMarca>= 19 || iMarca<7)
+		document.documentElement.className = "js noche";
+	else
+		document.documentElement.className = "js";
+}
+</script>
+<!-- fin del cambio de imagen de fondo para la noche  -->
+
+<!-- código Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15474711-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- fin del código Google Analytics -->
+</head>
+<body>
+<a href="https://www.facebook.com/pages/F%C3%A1brica-de-Ideas/105019014726"><img src="./landing/fb.png" style="margin: 0em 2em 0em 0em; float:right;border:none;"/></a>
+<a href="http://www.fabricadeideas.pe/blog"><img src="./landing/bl.png" style="float:right;border:none;"/></a>
+</body>
+</html>
+
+
+
